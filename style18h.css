@@ -1,0 +1,91 @@
+[class*="col-"] {
+width: 100%;
+}
+h1 {
+  font-family: "kaushan script";
+  font-size: 8em;
+  text-align: center;
+}
+h3 {
+  text-align: left;
+}
+body {
+  font-family: arial, sans-serif;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  display: table;
+}
+header {
+  background-image: url(larenbrink.png);
+  color: white;
+  min-height: 200px;
+  margin-top: -80px;
+  margin-bottom: 20px;
+}
+footer {
+  background-color: #223843;
+  color: white;
+  height: 0;
+  display: table-row;
+  text-align: center;
+}
+.artikfoto {
+  float: right;
+  width: 50%;
+  object-fit: fill;
+  border-style: solid;
+  border-color: grey;
+  padding: 5px;
+  margin: 5px;
+}
+.artikdiv {
+  min-height: inherit;
+}
+section {
+  height: 100%;
+  padding: 10px;
+}
+.een {
+background-color: #D77A61;
+border-style: solid;
+border-color: grey;
+border-radius: 4px;
+padding: 10px;
+margin-right: 5px;
+margin-bottom: 10px;
+}
+.twee {
+display: table;
+background-color: #D8B4A0;
+border-style: solid;
+border-color: grey;
+border-radius: 4px;
+padding: 10px 20px 10px 20px;
+margin-bottom: 10px
+}
+ul {
+  line-height: 200%;
+  list-style-type: disc;
+  padding-left: 10px;
+}
+@media only screen and (min-width: 768px) {
+[class*="col-"] {
+float: left;
+}
+.artikfoto {
+width: 25%;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 18%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 81%; float: right;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+}
